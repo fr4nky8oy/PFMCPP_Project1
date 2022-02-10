@@ -126,7 +126,7 @@ vocaltuner.setFormantsAmount();
 //  9)
 //  Noun: eq
 //  action 1: change the q Range
-eq.chageERange();
+eq.changeQRange();
 //  action 2: choose the eq's Type
 eq.chooseEqType();
 //  action 3: set the center Frequency
