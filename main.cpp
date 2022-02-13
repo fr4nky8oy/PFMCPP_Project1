@@ -117,20 +117,20 @@ tape.setJitterAmount();
 //  8)
 //  Noun: vocalTuner
 //  action 1: set the musical Scale
-vocaltuner.setMusicalScale();
+vocalTuner.setMusicalScale();
 //  action 2: set the musical Key
-vocaltuner.setMusicalKey();
+vocalTuner.setMusicalKey();
 //  action 3: set the formants Amount
-vocaltuner.setFormantsAmount();
+vocalTuner.setFormantsAmount();
 
 //  9)
 //  Noun: eq
 //  action 1: change the q Range
-eq.changeQRange();
+eqParametric.changeQRange();
 //  action 2: choose the eq's Type
-eq.chooseEqType();
+eqParametric.chooseEqType();
 //  action 3: set the center Frequency
-eq.setCenterFrequency();
+eqParametric.setCenterFrequency();
 
 //  10)
 //  Noun: reverb
