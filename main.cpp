@@ -52,86 +52,94 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: comp
+//  action 1: increase the Gain
+comp.increaseTheGain();
+//  action 2 : set the Threshold
+comp.setThreshold();
+//  action 3: change circuit Type
+comp.changeCircuitType();
 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun: flange
+//  action 1: set the feedback Amount
+flange.setFeedbackAmount();
+//  action 2: set frequency Range 
+flange.setFrequencyRange();
+//  action 3: set the lfo Speed
+flange.setLfoSpeed();
 
-//  action 2:
-
-//  action 3:
-
-//  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  3) 
+//  Noun: delay
+//  action 1: set wet Amount
+delay.setWetAmount();
+//  action 2: set frequency Range 
+delay.setFrequencyRange();
+//  action 3: set feedback Amount
+delay.setFeedbackAmount(); 
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: distortion
+//  action 1: set circuitType
+distortion.setCircuitType();
+//  action 2: set crunch Amount
+distortion.setCrunchAmount();
+//  action 3: choose frequency Bands
+distortion.chooseFrequencyBands();
 
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: granular
+//  action 1: set grains Count 
+granular.setGrainsCount();
+//  action 2;  set spray Range 
+granular.setSprayRange();
+//  action 3: set grains Window 
+granular.setGrainsWindow();
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: sampler
+//  action 1: change sample's Tune  
+sampler.changeSampleTune();
+//  action 2: set sample's root Key
+sampler.setRootKey();
+//  action 3: set play Head Position
+sampler.setPlayHeadPosition();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: tape
+//  action 1: set the harmonic Coloration 
+tape.setHarmonicColor(); 
+//  action 2: set the tape Type
+tape.setTapeType();
+//  action 3: set the jitter Amount
+tape.setJitterAmount();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: vocalTuner
+//  action 1: set the musical Scale
+vocalTuner.setMusicalScale();
+//  action 2: set the musical Key
+vocalTuner.setMusicalKey();
+//  action 3: set the formants Amount
+vocalTuner.setFormantsAmount();
 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: eqParametric
+//  action 1: change the q Range
+eqParametric.changeQRange();
+//  action 2: choose the eq's Type
+eqParametric.chooseEqType();
+//  action 3: set the center Frequency
+eqParametric.setCenterFrequency();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun: reverb
+//  action 1: set dry Amount
+reverb.setDryAmount();
+//  action 2: set the preDelay crunchAmount
+reverb.setPreDelay();
+//  action 3: choose room Type
+reverb.chooseRoomType();
 
 #endif
 
