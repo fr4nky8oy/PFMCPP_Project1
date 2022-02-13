@@ -124,7 +124,7 @@ vocalTuner.setMusicalKey();
 vocalTuner.setFormantsAmount();
 
 //  9)
-//  Noun: eq
+//  Noun: eqParametric
 //  action 1: change the q Range
 eqParametric.changeQRange();
 //  action 2: choose the eq's Type
